@@ -87,8 +87,7 @@ if((docHashes[TdocHashes].Recipient == msg.sender ||
 docHashes[TdocHashes].Sender == msg.sender) &&
 docHashes[TdocHashes].Current_version == true ){
 return
-(docHashes[TdocHashes].Sender,docHashes[TdocHashes].FileName,docHashes[TdocH
-ashes].DocType, docHashes[TdocHashes].mineTime,
+(docHashes[TdocHashes].Sender,docHashes[TdocHashes].FileName,docHashes[TdocHashes].DocType, docHashes[TdocHashes].mineTime,
 docHashes[TdocHashes].blockNumber, docHashes[TdocHashes].FileHash);
 }
 
