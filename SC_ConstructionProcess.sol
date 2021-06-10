@@ -1,4 +1,4 @@
-pragma solidity ^0.4.19;
+pragma solidity ^0.5.5;
 contract Bcl {
 // Defining the structure Transmission
 struct Transmission{
@@ -20,9 +20,7 @@ bytes32[] public ListdocHash;
 // Defining the structure map to store the docHashes in order to have 
 //an accesskey to the Transmission
 mapping (bytes32 => Transmission) private docHashes;
-constructor() public {
-// constructor
-}
+
 
 //Add transmission function
 function Add_transmission (bytes32 _FileName,bytes32 _FileType,
